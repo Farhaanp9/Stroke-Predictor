@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import OneHotEncoder
 all_data = pd.read_csv("healthcare-dataset-stroke-data.csv")
 
-with open("C:/Users/farha/potr/voting_model_ML",'rb') as file:
+with open("voting_model_ML",'rb') as file:
     model = pickle.load(file)
 
 #print(model)
