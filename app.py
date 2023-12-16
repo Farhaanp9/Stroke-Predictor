@@ -147,12 +147,17 @@ hypertension = st.radio("Hypertension", ["True", "False"], index = None)
 st.write(f"Hypertension Status: {hypertension}")
 
 # THIS IS FOR BMI
-st.title("BMI Value")
-bmi = st.number_input("BMI", min_value=0.0, step=0.1)
+st.title("Weight (lbs)")
+weight = st.number_input("Weight", min_value=0.0, step=0.1)
+st.write(f"Weight in pounds: {weight}")
 
-st.write(f"Entered BMI: {bmi}")
+st.title("Height (inches)")
+height = st.number_input("Height", min_value=0.0, step=0.1)
+st.write(f"Height in inches: {height}")
 
-# THIS IS FOR HEART DISEAS
+bmi = 703 * (weight/(height*height))
+
+# THIS IS FOR HEART DISEASE
 st.title("Heart Disease")
 
 heart_disease = st.radio("Heart Disease", ["True", "False"],  index = None)
