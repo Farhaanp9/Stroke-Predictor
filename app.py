@@ -154,7 +154,7 @@ st.write(f"Weight in pounds: {weight}")
 st.title("Height (inches)")
 height = st.number_input("Height", min_value=0.0, step=0.1)
 st.write(f"Height in inches: {height}")
-
+bmi = 0
 bmi = 703 * (weight/(height*height))
 
 # THIS IS FOR HEART DISEASE
