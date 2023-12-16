@@ -76,7 +76,7 @@ Your health matters, and taking proactive steps today can make a significant dif
 
 Personal data will NOT be collected.
 
-Heart failure detection coming soon!
+Heart failure detection coming soon...
 """
             )
 
